@@ -21,3 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::resource('article','ArticlesController');
+Route::get('user_articles','ArticlesController@userPosts');
